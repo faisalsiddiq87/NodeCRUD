@@ -9,7 +9,7 @@
 7. After all changes execute the command `node app.js` to run application.
 8. The project will be up and running if everything configured correctly.
 9. Available CRUD routes are
--- POST http://localhost:1234/products/create {"name" : "Apple", "price" : "20"}
--- GET http://localhost:1234/products/{:id}
--- PUT http://localhost:1234/products/{:id}/update {"name" : "Apple", "price" : "20"}
--- DELETE http://localhost:1234/products/{:id}/delete
+10. -- POST http://localhost:1234/products/create {"name" : "Apple", "price" : "20"}
+11. -- GET http://localhost:1234/products/{:id}
+12. -- PUT http://localhost:1234/products/{:id}/update {"name" : "Apple", "price" : "20"}
+13. -- DELETE http://localhost:1234/products/{:id}/delete
